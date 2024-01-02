@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    
-    color: DarkCyan;
+    back-ground color: DarkCyan;
+    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
