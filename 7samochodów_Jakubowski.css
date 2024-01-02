@@ -1,0 +1,491 @@
+@charset "utf-8";
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: DarkCyan;
+}
+
+header {
+    background-color: DarkCyan;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {background-color:MediumSlateBlue; color:Lavender; font-size:120px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; text-align:center; 
+	
+	text-shadow:4px 6px 18px LightYellow; letter-spacing: 5px; text-transform:uppercase; border-style:double; 
+	
+	border-color:BlueViolet; margin-left: 460px;; margin-top: 100px; padding-left:10px;padding-bottom:10px }
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;margin-right: 340px;font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+nav a:hover {
+    color: DarkCyan; /* Kolor po najechaniu myszką */
+}
+
+
+
+.list-section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.styled-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.styled-list li {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+}
+	
+
+
+
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Apply styles to the image */
+.animated-image {
+    width:700px;
+	height:550;
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 0px solid transparent;
+}
+
+/* Define the hover effect */
+.image-container:hover .animated-image {
+    transform: scale(1.03);box-shadow: 0 6px 10px 0 #FF8C00, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     /* Change to your desired border color */
+}
+
+
+
+
+
+.car-info {
+    padding: 20px;
+    background-color: LightCyan;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
+}
+.opisy{;font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+.linki{padding: 35px;
+    background-color: FireBrick;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:400px;
+}
+.Andrew{padding: 35px;
+    background-color: Chocolate;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:400px;
+	
+	
+}
+a:hover  {color:MediumSpringGreen;transition: color 0.5s ease-in-out;
+	
+}
+a {color:white;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+.stopka{color:black;
+	
+	
+}
+
+
+form {
+    max-width: 600px;
+    margin: 20px ;
+    background-color: Lavender;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea, input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+output {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button,
+.clear-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover,
+.clear-button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+.table-section {
+    max-width: 1000px;
+    margin-left: 20px ;
+}
+
+.stylish-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.stylish-table th, .stylish-table td {
+    border: 4px solid YellowGreen;
+    padding: 8px;
+    text-align: center; font-weight: 500
+}
+
+.stylish-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.rzedy {background-color: #333;
+    color: #fff; font-style: oblique;font-weight: 600
+}
+
+
+
+
+
+
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  /*width: 25%;*/
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.7s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 6px 8px 0 #FF8C00, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.galeria {padding: 10px;
+    background-color: LightCyan;
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:400px;}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submit-button,
+    .clear-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .table-section,
+    .list-section {
+        max-width: 100%;
+    }
+
+    .stylish-table th,
+    .stylish-table td {
+        padding: 5px;
+    }
+
+    .styled-list li {
+        padding: 8px;
+    }
+}
+.opisy {font-size:2px
+}
+	.animated-image {
+    width:100px;
+	height:50px;
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 0px solid transparent;
+	
+}
+.car-info {
+    padding: 20px;
+    background-color: LightCyan;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
+}
+
+
+	
+
+/* Dla tabletów (szerszych niż 600px, ale węższych niż 1200px) */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .button-container {
+        justify-content: center;
+    }
+
+    .stylish-table th,
+    .stylish-table td {
+        padding: 10px;
+    }
+
+    .styled-list li {
+        padding: 12px;
+    }
+}
+.opisy {font-size:5px
+	
+}
+.animated-image {
+    width:50px;
+	height:15px;
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 0px solid transparent;	
+	
+}
+
+.car-info {
+    padding: 20px;
+    background-color: LightCyan;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
+}
+
+/* Dla komputerów (szerszych niż 1200px) */
+@media screen and (min-width: 1201px) {
+    .button-container {
+        justify-content: flex-end;
+    }
+
+    .stylish-table th,
+    .stylish-table td {
+        padding: 12px;
+    }
+
+    .styled-list li {
+        padding: 14px;
+    }
+}
+.opisy {font-size:18px
+
+}
+.animated-image {
+    width:800px;
+	height:475px;
+    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    border: 0px solid transparent;
+}
+
+
+.car-info {
+    padding: 20px;
+    background-color: LightCyan;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
+}
+
+
+
+
+
+
