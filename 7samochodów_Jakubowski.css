@@ -422,15 +422,15 @@ img.hover-shadow {
 
 .Andrew{padding: 15px;
     background-color: Chocolate;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:400px;	
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-left:10px;	
 
 .linki{padding: 15px;
     background-color: FireBrick;
     margin: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-left:10px;
 }
 
 	
