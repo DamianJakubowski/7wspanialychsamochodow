@@ -98,7 +98,7 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
 }
-.opisy{;font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";font-size:18px
+.opisy{;font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";font-size:100%
 }
 
 .linki{padding: 35px;
@@ -501,7 +501,7 @@ img.hover-shadow {
         padding: 14px;
     }
 }
-.opisy {font-size:18px
+.opisy {font-size:100%
 
 }
 .animated-image {
