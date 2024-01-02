@@ -75,8 +75,8 @@ nav a:hover {
 
 /* Apply styles to the image */
 .animated-image {
-    width:700px;
-	height:550;
+    width:75%;
+	height:75%;
     transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
     border: 0px solid transparent;
 }
