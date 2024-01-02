@@ -410,7 +410,7 @@ img.hover-shadow {
     background-color: LightCyan;
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-left:5px;
 }
 
 #logo {background-color:MediumSlateBlue; color:Lavender; font-size:120px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; text-align:center; 
