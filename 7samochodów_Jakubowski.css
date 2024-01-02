@@ -488,19 +488,7 @@ img.hover-shadow {
 }
 /* Dla komputerów (szerszych niż 1200px) */
 @media screen and (min-width: 1201px) {
-    .button-container {
-        justify-content: flex-end;
-    }
-
-    .stylish-table th,
-    .stylish-table td {
-        padding: 12px;
-    }
-
-    .styled-list li {
-        padding: 14px;
-    }
-}
+  
 .opisy {font-size:100%
 
 }
