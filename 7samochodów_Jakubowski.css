@@ -454,39 +454,7 @@ img.hover-shadow {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
 }
 
-/* Dla komputerów (szerszych niż 1200px) */
-@media screen and (min-width: 1201px) {
-    .button-container {
-        justify-content: flex-end;
-    }
 
-    .stylish-table th,
-    .stylish-table td {
-        padding: 12px;
-    }
-
-    .styled-list li {
-        padding: 14px;
-    }
-}
-.opisy {font-size:18px
-
-}
-.animated-image {
-    width:800px;
-	height:475px;
-    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
-    border: 0px solid transparent;
-}
-
-
-.car-info {
-    padding: 20px;
-    background-color: LightCyan;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);text-align:justify;margin-right:20px;
-}
 
 
 
