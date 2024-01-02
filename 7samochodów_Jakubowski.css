@@ -399,8 +399,8 @@ img.hover-shadow {
 .opisy {font-size:2px
 }
 	.animated-image {
-    width:25%;
-	height:25%;
+    width:75%;
+	height:75%;
     transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
     border: 0px solid transparent;
 	
